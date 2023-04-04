@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+.title{
+  font-family: 'Bree Serif', serif;
+  font-size: 4rem;
+   color:rgb(230, 153, 53);
+   text-shadow: 0.2rem 0.2rem 0.8rem rgb(184, 178, 178);
+}
+
+.item-sec{
+    background-color: #f1f2f6;
+}
+
+.card-effect{
+    cursor: pointer;
+    transition:all 0.5s;
+    border:2px solid grey;
+    margin-bottom: 2rem;
+}
+
+.card-effect:hover{
+    box-shadow: 0.7rem 0.7rem 1.5rem rgb(99, 93, 93);
+    transition:all 0.5s;
+}
+
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-shadow:0.2rem 0.2rem 0.8rem rgb(209, 201, 201);
+}
+
+/* footer-start */
+.footer {
+    width: 100%;
+    height: 3.5rem;
+    background-color: #202122;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: 1.3rem;
+    color: #ddd;
+  }
+  
+  /* footer-end */
